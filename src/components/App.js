@@ -4,7 +4,7 @@ import Main from './Main'
 import Start from './Start'
 import api from '../utils/api'
 import PaginationTable from './PaginationTable'
-import { Routes, Route, Navigate, useNavigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import MOCK_DATA from '../final.json';
 
 function App() {
@@ -37,12 +37,12 @@ function App() {
   return (
     <div className="App root">
       <div className="root__page">
-        <Routes>
+        <HashRouter basename="/">
           <Route path="/" element={<Navigate to="/start" replace/>}/>
           <Route path="/start" element={<Start onButtonClick={onButtonClick}/>}/>
           <Route path="/main" element={<Main onDataSent={onDataSent}/>}/>
           <Route path="/results" element={<PaginationTable resendData={resendData} tableData={tableData}/>}/>
-        </Routes>
+        </HashRouter>
         {/* <PaginationTable/> */}
         <Footer/>
       </div>
