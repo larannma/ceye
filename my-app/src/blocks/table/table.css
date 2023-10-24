@@ -1,0 +1,29 @@
+.table {
+	width: 95%;
+	margin-bottom: 20px;
+	border-collapse: collapse; 
+	font-size: 15px;
+	margin: auto;
+	font-family: Helvetica;
+}
+.table th {
+	font-weight: bold;
+	padding: 7px;
+	border-bottom: #00E384;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	text-align: left;
+	font-size: 15px;
+	padding-top: 23px;
+	padding-bottom: 11px;
+}
+.table td {
+	padding: 18px;
+	border: none;
+	font-size: 15px;
+}
+
+table tr:hover td {
+    background: #00E384;
+    cursor: pointer;
+  }

@@ -1,0 +1,5 @@
+.root__pageContainer{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}

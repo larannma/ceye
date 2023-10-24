@@ -1,0 +1,40 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
+body{
+    background-color: #222534;
+}
+
+@import url(./blocks/root/root.css);
+@import url(./blocks/root/__section/root__section.css);
+@import url(./blocks/root/__page/root__page.css);
+/* @import url(./blocks/table/table.css); */
+@import url(./blocks/root/__button/root__button.css);
+@import url(./blocks/root/__mainSection/root__mainSection.css);
+@import url(./blocks/root/__header/root__header.css);
+@import url(./blocks/root/__pageContainer/root__pageContainer.css);
+@import url(./blocks/root/__subtitle/root__subtitle.css);
+@import url(./blocks/params/params.css);
+@import url(./blocks/params/__main/params__main.css);
+@import url(./blocks/params/__resolutionContainer/params__resolutionContainer.css);
+
+@import url(./components/Footer.css);
+@import url(./components/Start.css);
+
+.params__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.params__header{
+    width: 372px;
+    font-size: 56px;
+    vertical-align: bottom;
+}
+
+.result{
+    margin-bottom: 50px
+}
+
+@import url(./components/table.css);
