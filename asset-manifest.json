@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ceye/static/css/main.ea3e1308.css",
+    "main.js": "/ceye/static/js/main.13b99d91.js",
+    "static/media/IntroDemo-BlackCAPS.otf": "/ceye/static/media/IntroDemo-BlackCAPS.370fbd24e4a78c308d97.otf",
+    "index.html": "/ceye/index.html",
+    "main.ea3e1308.css.map": "/ceye/static/css/main.ea3e1308.css.map",
+    "main.13b99d91.js.map": "/ceye/static/js/main.13b99d91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea3e1308.css",
+    "static/js/main.13b99d91.js"
+  ]
+}
